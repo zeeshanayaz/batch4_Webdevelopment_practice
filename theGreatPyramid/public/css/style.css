@@ -1,0 +1,53 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    text-align: center;
+    font-size: 50px;
+    font-family:"Barbedor T", Georgia, Serif;
+}
+.header>p{
+    margin-bottom: 0px;
+}
+
+.nav-element{
+    font-size: 20px;
+    list-style: none;
+    display: inline;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 0px;
+}
+.nav{
+    padding-right: auto;
+    padding-left: auto;
+}
+.img-container>img{
+    width: 600px;
+    height: 300px;
+    margin: auto;
+}
+.content-container>table{
+    width: 700px;
+    text-align: justify;
+}
+.front-image{
+    margin: auto;
+    padding: auto;
+    width: 200px;
+    height: 120px;
+    /*border-radius: 20px;*/
+}
+
+.footer{
+    background-color: black;
+    height: 50px;
+    padding: 20px;
+}
+
+a:link{
+    text-decoration: none;
+
+}

@@ -1,0 +1,117 @@
+/*Created by Zeeshan*/
+*{
+    padding: 0px;
+    margin: 0px;
+    color: aliceblue;
+}
+#wrapper{
+    background-color: #343732;
+    overflow: hidden;
+}
+
+#header{
+    background-color: #01080C;
+    overflow: hidden;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#logo{
+    font-family: Old English Text MT;
+    float: left;
+    padding-left:20px;
+}
+#logo a{
+    text-decoration: none;
+}
+#navigation{
+    float: right;
+    padding-top:15px;
+}
+#navigation > ul{
+    list-style:none;
+}
+#navigation li{
+    float: left;
+}
+#navigation a{
+    margin-right:50px;
+    text-decoration:none;
+}
+
+#social{
+    float: right;
+}
+.icon{
+    display:inline-block;
+    width:40px;
+    height:40px;
+    cursor: pointer;
+}
+#facebook{
+    background-image: url("../image/facebook-icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+#twitter{
+    background-image: url("../image/twitter-icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#linkedin{
+    background-image: url("../image/linkedin-icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+#table{
+    padding: 10px 40px;
+    width: 100%;
+}
+#table td{
+    padding: 10px;
+}
+
+#aboutcontent{
+    vertical-align: top;
+}
+#aboutcontent h3{
+    padding-bottom: 30px;
+}
+#aboutcontent p{
+    padding-bottom: 30px;
+}
+.contentHeading{
+    font: 400 58px/60px 'Bree Serif', Georgia, serif;
+}
+
+
+#services li{
+    display: inline;
+    width: 108px;
+    height: 108px;
+    list-style: none;
+    float:left;
+    margin-right: 20px;
+}
+#designer{
+    background: url("../image/icon-1.png") no-repeat;
+}
+#mobile{
+    background: url("../image/icon-2.png") no-repeat;
+}
+#film{
+    background: url("../image/icon-3.png") no-repeat;
+}
+#photos{
+    background: url("../image/icon-4.png") no-repeat;
+}
+
+hr {
+    display: block;
+    margin: 10px auto;
+    border:10px solid gray;
+    border-radius: 10px;
+}

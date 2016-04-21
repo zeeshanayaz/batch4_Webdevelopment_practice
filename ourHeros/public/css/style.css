@@ -1,0 +1,127 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#header{
+    width: 100%;
+    height: 50px;
+    background-color: #07F03E;
+}
+#logo{
+    font-size: 25px;
+    padding: 10px;
+    float: left;
+    color: white;
+    font-weight: bold;
+}
+#jumpfb{
+    background-color: #15558b;
+    float: right;
+    height: 30px;
+    width: 130px;
+    margin: 10px;
+    border-radius: 10px;
+}
+#jumpfb>a>p{
+    color: white;
+    padding: 3px;
+    font-size: 25px;
+    text-align: center;
+}
+
+#header::after{
+    content: "";
+    display: block;
+    clear: both;
+    *zoom: 1;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited{color: black;}
+#heading{
+    text-align: center;
+    margin-top: 10px;
+}
+#headingp{
+    text-align: center;
+    margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#piccontainer{
+    width: 690px;
+    margin: auto;
+
+}
+.picture{
+    height: 150px;
+    width: 130px;
+    float: left;
+    margin: 50px;
+}
+#piccontainer::after{
+    content: "";
+    display: block;
+    clear: both;
+    *zoom: 1;
+}
+.picture:nth-child(1){background-color: transparent}
+.picture:nth-child(2){background-color: transparent}
+.picture:nth-child(3){background-color: transparent}
+.picture>img{
+    height: 150px;
+    width: 130px;
+    border-radius: 20px;
+}
+#picdetail{
+    width: 690px;
+    margin: auto;
+}
+
+#picdetail::after{
+    content: "";
+    display: block;
+    clear: both;
+    *zoom: 1;
+}
+.detail{
+    float: left;
+    margin: 50px;
+    margin-top: 0px;
+    text-align: center;
+    color: black;
+}
+
+#paragraph{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+table{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 80%;
+    border-collapse: collapse;
+}
+
+td{
+    padding: 10px;
+}
+
+tbody>tr:hover {background-color: #f5f5f5}
+thead{
+    background-color: #4CAF50;
+    color: white;
+}
+#footer{
+    background-color: #A5B0A8;
+    height: 30px;
+    width: auto;
+    padding-top: 5px;
+}
+
+#footer>p{
+    text-align: center;
+
+}

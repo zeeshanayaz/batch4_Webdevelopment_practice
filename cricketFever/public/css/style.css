@@ -1,0 +1,128 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: darkgray;
+}
+#header{
+    background-color: #0D2C2B;
+    height: 65px;
+    width: auto;
+}
+#header>p{
+    background-color: #0D2C2B;
+    color: white;
+	font-family: Algerian;
+    padding: 10px;
+    padding-left: 40px;
+    font-size: 250%;
+    font-weight: bold;
+    float: left;
+}
+#header>a{
+    height: 35px;
+    width: 10%;
+    background-color: white;
+    float: right;
+    margin: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 200%;
+    border-radius: 10%;
+}
+#navigationBar li{
+    display: inline;
+    list-style-type: none;
+    padding: 0px 25px 0px 25px;
+    height: 50px;
+    background-color: #05150C;
+}
+#navigationBar{
+    height: 50px;
+    background-color: #05150C;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 250px;
+    font-size: 30px;
+    width: auto;
+}
+#navigationBar a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 0px;
+}
+#navigationBar > ul{
+    background-color: #05150C;
+}
+#navigationBar li:hover{
+    background-color: #34A568;
+}
+#navigationBar:after{
+    content: "";
+    display: block;
+    clear: both;
+    *zoom: 1;
+}
+#container{
+    width: 1190px;
+    height: 1000px;
+    border: 2px solid purple;
+}
+
+
+#verticalNavBar{
+    width: 200px;
+    border: 1px solid black;
+    float: left;
+}
+#verticalNavBar a{
+    text-decoration: none;
+}
+.navlist{
+    font-size: 30px;
+    background-color: #06244C;
+    margin: 0px;
+}
+.navlist:hover{
+    background-color: yellow;
+    text-decoration: none;
+    font-size: 40px;
+    text-align: center;
+}
+.navlist:active{
+    color: white;
+}
+
+
+#content{
+    width: 980px;
+    height: auto;
+    float: right;
+    margin-left: 1px;
+}
+
+#contenttable{
+    align-self: center;
+    margin-left: 10px;
+}
+
+.playerimage{
+    width: 250px;
+    height: 300px;
+    margin: 20px;
+    border: 5px solid black;
+    border-radius: 150px;
+    padding: 10px;
+
+}
+.playerdetail{
+    list-style: none;
+    padding-left: 60px;
+}
+
+#contenttable td{
+    border: 1px solid black;
+
+}
+#contenttable{
+
+}
